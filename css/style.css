@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p {
+  margin: 40px;
+}
+
+.add.active {
+  font-weight: bold;
+}
+
+.remove.active {
+  color: #f00;
+}
+
+.width,
+.height {
+  text-align: center;
+  color: #f00;
+  padding: 10px;
+  margin: 0 auto;
+  border: 2px solid;
+
+  width: 200px;
+  height: 150px;
+}
+
+.absolute {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+}
+
+.scroll {
+  position: fixed;
+  top: 50px;
+  right: 0;
+}
+.scrollItem {
+  width: 100px;
+}
